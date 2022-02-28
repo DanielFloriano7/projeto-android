@@ -21,10 +21,12 @@
 }
 
 body {
+    
     margin: 0px;
     background-color: var(--cor1);
 }
 header {
+    min-width: min-content;
     font-family: var(--fonte0);
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
     margin: 0px;
@@ -47,9 +49,10 @@ header > h1, header > p{
 }
 
 header > p {
-    width: 400px;
+    max-width: 600px;
     margin: auto;
     
+    font-size: 1.2em;
 }
 
 nav > a {
@@ -70,7 +73,8 @@ nav > a:hover {
 
 
 main {
-    min-width: 280px;
+    background-color: white;
+    min-width: min-content;
     max-width: 800px;
     margin: auto;
     background-color: white;
@@ -179,7 +183,7 @@ footer {
 }
 footer > p {
     margin-bottom: 0px;
-    
+    min-width: ;
     padding: 5px;
     color: white;
     text-align: center;
